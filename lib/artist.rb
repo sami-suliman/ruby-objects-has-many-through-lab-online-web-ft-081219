@@ -3,7 +3,7 @@ class Artist
   
   @@all = []
   
-  require "pry"
+  require 'pry'
   def initialize(name)
     @name = name 
     @songs = []
@@ -21,6 +21,7 @@ class Artist
   def genre 
     self.songs.collect do |song|
       song.genre 
+      binding pry
     end 
   end 
 end 
