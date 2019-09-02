@@ -3,6 +3,7 @@ class Artist
   
   @@all = []
   
+  require "pry"
   def initialize(name)
     @name = name 
     @songs = []
