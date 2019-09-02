@@ -21,7 +21,6 @@ class Artist
   def genre 
     self.songs.collect do |song|
       song.genre 
-      binding pry
     end 
   end 
 end 
