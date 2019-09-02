@@ -18,6 +18,6 @@ class Artist
   end 
   
   def genre 
-    self.songs.colect
+    self.songs.collect
   end 
 end 
