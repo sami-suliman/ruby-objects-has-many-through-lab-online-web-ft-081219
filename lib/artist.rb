@@ -18,4 +18,6 @@ class Artist
   end 
   
   def genre 
+    
+  end 
 end 
